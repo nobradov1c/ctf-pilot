@@ -1,0 +1,2 @@
+# ctf_pilot
+A guide and a cheatsheet for solving ctfs
