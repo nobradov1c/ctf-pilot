@@ -1,5 +1,10 @@
 # Web Exploitation
 
+## JavaScript, JS
+
+### javascript deobfuscator
+https://deobfuscate.io/
+
 ## wasm, web assembly, WebAssembly
 [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
 
