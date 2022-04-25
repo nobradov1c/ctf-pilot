@@ -3,9 +3,11 @@
 ## JavaScript, JS
 
 ### javascript deobfuscator
+
 https://deobfuscate.io/
 
 ## WASM, web assembly, WebAssembly
+
 [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
 
 Instructions
@@ -17,14 +19,16 @@ Instructions
 `wasm2wat --generate-names script.wasm > script.wat`
 
 #### to c
+
 `wasm2c main.wasm -o wasm.c`
 
 ### to pseudo code
+
 `wasm-decompile main.wasm -o wasm.dcmp`
 
 ### wasmtime
 
-Standalone JIT-style runtime for WebAssembly, using Cranelift 
+Standalone JIT-style runtime for WebAssembly, using Cranelift
 
 https://github.com/bytecodealliance/wasmtime
 
