@@ -3,3 +3,7 @@
 A guide and a cheatsheet for solving ctfs
 
 ## [Web Exploitation](/web)
+
+## Other
+
+### [Python](./other/python/)
