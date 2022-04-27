@@ -6,6 +6,14 @@
 
 https://deobfuscate.io/
 
+### JWT
+
+https://jwt.io/
+
+`john --wordlist=/usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt jwt.txt`
+
+`john --show jwt.txt`
+
 ## WASM, web assembly, WebAssembly
 
 [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
