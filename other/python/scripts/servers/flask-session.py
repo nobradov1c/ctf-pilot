@@ -7,6 +7,7 @@ from flask.json.tag import TaggedJSONSerializer
 from flask import Flask
 from itsdangerous import BadSignature, URLSafeTimedSerializer
 
+# wordlist
 secret_keys = ["snickerdoodle", "chocolate chip", "oatmeal raisin", "gingersnap", "shortbread", "peanut butter", "whoopie pie", "sugar", "molasses", "kiss", "biscotti", "butter", "spritz",
                "snowball", "drop", "thumbprint", "pinwheel", "wafer", "macaroon", "fortune", "crinkle", "icebox", "gingerbread", "tassie", "lebkuchen", "macaron", "black and white", "white chocolate macadamia"]
 
