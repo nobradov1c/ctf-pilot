@@ -7,7 +7,7 @@ A guide and a cheatsheet for solving ctfs
 ## [Forensics](/forensics/)
 
 - [Docker](/forensics/#docker)
-- [pcap]
+- [pcap](forensics#pcap-wireshark)
 
 ## Other
 
