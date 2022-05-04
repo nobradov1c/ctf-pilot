@@ -8,3 +8,7 @@
   - `skopeo inspect docker-daemon:hackinglab/jumphost:latest`
   - `skopeo inspect --config docker-daemon:hackinglab/jumphost:latest`
 - `/var/lib/docker/overlay2` - layers location
+
+## Pcap, wireshark
+
+- extract keyboard input from USB protocol
