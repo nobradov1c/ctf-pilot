@@ -9,6 +9,8 @@ A guide and a cheatsheet for solving ctfs
 - [Docker](/forensics/#docker)
 - [pcap](forensics#pcap-wireshark)
 
+## [Reverse Engineering](/reverse-engineering/)
+
 ## Other
 
 ### [Python](./other/python/)
