@@ -4,6 +4,8 @@ A guide and a cheatsheet for solving ctfs
 
 ## [Web Exploitation](/web)
 
+## [Networking](/networking/)
+
 ## [Forensics](/forensics/)
 
 - [Docker](/forensics/#docker)
