@@ -140,3 +140,10 @@
 ## Informational
 
 - `backtrace, bt` (short form: bt) provides a call stack backtrace. [docs](https://sourceware.org/gdb/current/onlinedocs/gdb/Backtrace.html#Backtrace)
+
+## **Stepping**
+
+- `nexti, ni` Step Over, next instruction
+- `stepi, si` Step Into
+- `finish, fin` Steps out of the current function context
+- `until <address>, u` Step until address; If for some reason the address is never reached (e.g. because control flow branches some other direction) the until instruction will also break upon exit from the current function.
