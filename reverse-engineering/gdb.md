@@ -1,5 +1,10 @@
 # GDB cheat sheet
 
+## **Changing Disassembly Syntax**
+
+- `set disassembly-flavor intel`
+- `set disassembly-flavor att`
+
 ## **Running**
 
 - `gdb -q <program> [core dump]` Start GDB (with optional core dump).
@@ -147,3 +152,36 @@
 - `stepi, si` Step Into
 - `finish, fin` Steps out of the current function context
 - `until <address>, u` Step until address; If for some reason the address is never reached (e.g. because control flow branches some other direction) the until instruction will also break upon exit from the current function.
+
+## **Attaching to Running Userspace Processes**
+
+- set permissions: `echo 0 | sudo tee /proc/sys/kernel/yama/ptrace_scope` [more about permissions](https://askubuntu.com/questions/41629/after-upgrade-gdb-wont-attach-to-process)
+- unset permissions: `echo 1 | sudo tee /proc/sys/kernel/yama/ptrace_scope`
+
+- `ps aux | grep proces-name`
+- from gdb: `attach <process ID>`
+
+## **Saving a Persistent GDB Configuration**
+
+- `gdb -x ~/gdbcfg`
+
+example gdb cfg file (~/gdbcfg):
+
+```sh
+display/10i $rip
+display/x $rbp
+display/x $rsp
+display/x $rax
+display/x $rbx
+display/x $rcx
+display/x $rdx
+display/x $rdi
+display/x $rsi
+display/x $r8
+display/x $r9
+display/x $r12
+display/x $r13
+display/x $r14
+display/10gx $rsp
+start
+```
