@@ -185,3 +185,7 @@ display/x $r14
 display/10gx $rsp
 start
 ```
+
+## **Plugins**
+
+https://github.com/apogiatzis/gdb-peda-pwndbg-gef
