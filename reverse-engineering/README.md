@@ -19,3 +19,7 @@
   - [Melkor ELF Fuzzer](https://github.com/IOActive/Melkor_ELF_Fuzzer)
   - [elf specs 1](https://refspecs.linuxfoundation.org/elf/elf.pdf)
   - [elf specs 2](https://www.cs.cmu.edu/afs/cs/academic/class/15213-f00/docs/elf.pdf)
+
+## Assembly
+
+- [intel x86 manual](https://ost2images.s3.amazonaws.com/Arch2001/CourseMaterials/325462-sdm-vol-1-2abcd-3abcd.pdf)
