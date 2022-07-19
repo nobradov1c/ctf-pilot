@@ -8,6 +8,18 @@
 - `strace`
 - `ltrace`
 
+  ### multipurpose
+
+  - https://ide.kaitai.io/ - [kaitai](http://kaitai.io/)
+
+  ### tools for elf files
+
+  - https://github.com/horsicq/XELFViewer
+
+  ### tools for PE (windows)
+
+  - https://github.com/Washi1337/AsmResolver
+
 ## gdb [cheat sheet](./gdb.md)
 
 - `gdb -q <program> [core dump]`
