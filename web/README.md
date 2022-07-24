@@ -40,6 +40,11 @@ Tricks:
 - `SELECT username, password FROM users WHERE username='ad'||'min' except select' AND password=','' `
 - `SELECT username, password FROM users WHERE username='ad'||'min' AND password=''glob'*'`
 
+## SSTI - server side template injection
+
+- https://github.com/payloadbox/ssti-payloads
+- https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#exploit-the-ssti-by-calling-ospopenread
+
 ## WASM, web assembly, WebAssembly
 
 [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
