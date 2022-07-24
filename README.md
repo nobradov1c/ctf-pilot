@@ -4,6 +4,10 @@ A guide and a cheatsheet for solving ctfs
 
 ## [Web Exploitation](/web)
 
+## [Cryptography](/cryptography/)
+
+- [Obscure algorithms](/cryptography#obscure-algorithms)
+
 ## [Networking](/networking/)
 
 ## [Forensics](/forensics/)
