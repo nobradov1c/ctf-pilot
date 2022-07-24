@@ -15,7 +15,7 @@ A guide and a cheatsheet for solving ctfs
 
 ## [Miscellaneous](/miscellaneous/)
 
-- [DTMF melody, sound, music](/miscellaneous/#DTMF-melody,-sound,-music)
+- [DTMF melody, sound, music](/miscellaneous#dtmf-melody-sound-music)
 
 ## Other
 
