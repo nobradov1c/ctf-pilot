@@ -2,6 +2,7 @@
 
 ## Magic tools
 
+- [dcode cipher identifier](https://www.dcode.fr/cipher-identifier)
 - [Ciphey](https://github.com/Ciphey/Ciphey)
   - `docker run -it --rm remnux/ciphey "pvcurl vf gur orfg"`
 
