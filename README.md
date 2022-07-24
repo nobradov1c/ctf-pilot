@@ -13,6 +13,10 @@ A guide and a cheatsheet for solving ctfs
 
 ## [Reverse Engineering](/reverse-engineering/)
 
+## [Miscellaneous](/miscellaneous/)
+
+- [DTMF melody, sound, music](/miscellaneous/#DTMF-melody,-sound,-music)
+
 ## Other
 
 ### [Python](./other/python/)

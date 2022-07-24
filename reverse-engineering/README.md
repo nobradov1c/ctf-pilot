@@ -11,6 +11,7 @@
   ### multipurpose
 
   - https://ide.kaitai.io/ - [kaitai](http://kaitai.io/)
+  - https://cerbero.io/ - [tutorials](https://cerbero.io/resources/)
 
   ### tools for elf files
 
