@@ -9,3 +9,4 @@
 ## Obscure algorithms
 
 - [Twin hex cypher](https://www.calcresult.com/misc/cyphers/twin-hex.html)
+- [spam-mimic, spammimic](https://www.spammimic.com/explain.shtml)
