@@ -17,6 +17,10 @@ A guide and a cheatsheet for solving ctfs
 
 ## [Reverse Engineering](/reverse-engineering/)
 
+## [Operating systems](/operating-systems/)
+
+- [Linux privesc](/operating-systems#linux-privesc)
+
 ## [Miscellaneous](/miscellaneous/)
 
 - [DTMF melody, sound, music](/miscellaneous#dtmf-melody-sound-music)
