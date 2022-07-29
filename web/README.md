@@ -45,6 +45,11 @@ Tricks:
 - https://github.com/payloadbox/ssti-payloads
 - https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Server%20Side%20Template%20Injection/README.md#exploit-the-ssti-by-calling-ospopenread
 
+## Prototype Pollution
+
+- https://www.youtube.com/watch?v=MzlZIJjqsVE
+- https://github.com/satoki/ctf_writeups/tree/master/TJCTF_2022/fruit-store
+
 ## WASM, web assembly, WebAssembly
 
 [The WebAssembly Binary Toolkit](https://github.com/WebAssembly/wabt)
