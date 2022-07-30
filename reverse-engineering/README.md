@@ -36,3 +36,7 @@
 ## Assembly
 
 - [intel x86 manual](https://ost2images.s3.amazonaws.com/Arch2001/CourseMaterials/325462-sdm-vol-1-2abcd-3abcd.pdf)
+
+## Other
+
+- [Python vulnerabilities](./python.md)

@@ -14,6 +14,7 @@ A guide and a cheatsheet for solving ctfs
 
 - [Docker](/forensics/#docker)
 - [pcap](forensics#pcap-wireshark)
+- [Steganography](./steganography.md)
 
 ## [Reverse Engineering](/reverse-engineering/)
 
