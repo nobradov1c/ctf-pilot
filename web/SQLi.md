@@ -15,6 +15,8 @@
 
 5. <span style="color:orange">Blind SQL injection</span>, where the results of a query you control are not returned in the application's responses.
 
+   - https://portswigger.net/web-security/sql-injection/blind
+
 ### tools:
 
 - BurpSuite Intruder
