@@ -1,6 +1,7 @@
 # SQL Injection
 
 - https://portswigger.net/web-security/sql-injection/cheat-sheet
+- https://portswigger.net/web-security/sql-injection
 - https://sqlwiki.netspi.com/
 
 1. <span style="color:orange">Retrieving hidden data</span>, where you can modify an SQL query to return additional results.
