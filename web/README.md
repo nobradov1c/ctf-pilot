@@ -1,4 +1,18 @@
-# Web Exploitation
+# Web HTTP/HTTPS
+
+## enumeration
+
+- [gobuster](https://github.com/OJ/gobuster)
+  - `gobuster dir --url 10.10.10.123 --wordlist /usr/share/seclists/Discovery/Web-Content/big.txt > gobuster-big.txt`
+- [dirbuster](https://aur.archlinux.org/packages/dirbuster) - GUI app
+
+---
+
+Automated:
+
+- [nikto](https://github.com/sullo/nikto)
+  - `nikto -h tesla.com`
+- [nessus](https://www.tenable.com/products/nessus)
 
 ## JavaScript, JS
 
