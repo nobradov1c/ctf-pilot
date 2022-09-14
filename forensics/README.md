@@ -15,6 +15,4 @@
   - [option1](pcap/parse-keyboard-1.py)
   - [option2](pcap/parse-keyboard-2.py)
 
-## Steganography
-
-- [here](./steganography.md)
+## [Android](./android.md)

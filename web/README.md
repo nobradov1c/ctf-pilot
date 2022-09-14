@@ -14,6 +14,11 @@ Automated:
   - `nikto -h tesla.com`
 - [nessus](https://www.tenable.com/products/nessus)
 
+## Tricky
+
+- `wget --mirror`
+  - mirror a website, could solve some ctfs
+
 ## JavaScript, JS
 
 ### javascript deobfuscator

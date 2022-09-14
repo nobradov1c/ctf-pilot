@@ -10,3 +10,5 @@
 
 - https://instantusername.com
 - https://github.com/sherlock-project/sherlock
+
+## [Steganography](./steganography.md)

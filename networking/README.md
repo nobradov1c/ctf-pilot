@@ -17,11 +17,11 @@ https://h.43z.one/ipconverter/
 
 - [masscan](https://github.com/robertdavidgraham/masscan) Scan all ports very quickly
 
-  1. `masscan -p1-65535 10.10.10.123 --rate=1000 -e tun0 > ports`
-     - (alternative) `nmap -T4 -p- 10.10.10.123`
+  1. `sudo masscan -p1-65535 $ip --rate=1000 -e tun0 > ports`
+     - (alternative) `nmap -T4 -p- $ip`
   2. `ports=$(cat ports | awk -F " " '{print $4}' | awk -F "/" '{print $1}' | sort -n | tr '\n' ',' | sed 's/,$//')`
      - (for alternative) `ports=$(cat ports | grep open | awk -F "/" '{print $1}' | tr '\n' ',' | sed 's/,$//')`
-  3. `nmap -Pn -sV -sC -p$ports 10.10.10.123`
+  3. `sudo nmap -Pn -sC -sV -O -p$ports -oN nmap.txt $ip`
 
 - msfconsole
   - auxiliary/scanner/portscan/\*
