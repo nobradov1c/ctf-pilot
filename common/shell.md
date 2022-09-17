@@ -19,11 +19,6 @@
 
 - for `Microsoft IIS httpd 7.5` use aspx file
 
-## Linux privesc
-
-- common vectors:
-  - `sudo -l`, see what is executable as sudo
-
 ## Linux shell stabilization
 
 - `python2 -c 'import pty;pty.spawn("/bin/bash")'`
