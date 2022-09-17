@@ -28,3 +28,8 @@ Disconnect a device from the network:
 - `sudo aireplay-ng --deauth 10000000 -a EE:EE:EE:BB:BB:BB -c CC:CC:CC:AA:AA:AA wlanmon0`
 
 - [handshake cracker](https://github.com/semeion/handshake-cracker)
+
+## more tools
+
+- [kismet](https://github.com/kismetwireless/kismet)
+- [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon)

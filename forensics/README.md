@@ -18,3 +18,9 @@
   - [option2](pcap/parse-keyboard-2.py)
 
 ## [Android](./android.md)
+
+## more tools
+
+- [binwalk](https://github.com/ReFirmLabs/binwalk)
+- [foremost](https://www.kali.org/tools/foremost/#tool-documentation)
+- [scalpel](https://github.com/sleuthkit/scalpel)
