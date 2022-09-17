@@ -33,3 +33,5 @@ Disconnect a device from the network:
 
 - [kismet](https://github.com/kismetwireless/kismet)
 - [airgeddon](https://github.com/v1s1t0r1sh3r3/airgeddon)
+- [deauth](https://github.com/SpacehuhnTech/esp8266_deauther)
+- [deauth-v3](https://github.com/SpacehuhnTech/esp8266_deauther/tree/v3)
