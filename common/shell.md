@@ -25,3 +25,11 @@
 - ctrl + z to background
 - `stty raw -echo`, to fix tab completition
 - `fg`, to bring back the shell
+
+- [optional, fix vim]
+  - on attacker
+    - `echo $TERM`
+      > xterm-256color
+  - on victim rev shell
+    - `export TERM=screen`
+    - or `export TERM=xterm-256color` ?
