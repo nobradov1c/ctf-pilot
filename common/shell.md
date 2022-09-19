@@ -33,3 +33,7 @@
   - on victim rev shell
     - `export TERM=screen`
     - or `export TERM=xterm-256color` ?
+
+## Web shells
+
+- https://github.com/Arrexel/phpbash
