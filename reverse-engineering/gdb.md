@@ -53,6 +53,7 @@
 ## **Examine assembly**
 
 - `info functions` List all functions
+- `info functions flag.*` List all functions + regex filter
 - `disassemble`, `disas`, `disas <address or symbol name>` Disassemble the current function or
   given location
 - `disas /r` View raw bytes
