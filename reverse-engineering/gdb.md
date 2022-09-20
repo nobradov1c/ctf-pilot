@@ -63,6 +63,11 @@
 
       On ARM systems <instruction pointer / program counter> would be $pc
 
+- layouts
+  - `layout next`
+    > `layout next`
+  - `layout asm`
+
 ## **Commands: x (examine), print, display**
 
 - Format Specifiers /FMT
@@ -166,7 +171,9 @@
 
 - `gdb -x ~/gdbcfg`
 
-example gdb cfg file (~/gdbcfg):
+example gdb cfg file (~/.config/gdb/gdbinit ~/gdbinit ~/gdbcfg):
+
+> !! `$eip` for 32 bit binaries
 
 ```sh
 display/10i $rip
