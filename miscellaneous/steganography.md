@@ -20,3 +20,26 @@
   - `mkdir frames`
   - `ffmpeg -i some.webm frames/out-%03d.jpg`
   - now we can find 'blinking lights' for morse code message
+
+## Tools
+
+- [openpuff](https://embeddedsw.net/OpenPuff_Steganography_Home.html)
+  - custom encrypted steganography, blackarch
+- [StegExpose - java jar](https://github.com/b3dk7/StegExpose)
+  - expose LSB data from PNG or BMP
+- [openstego](https://github.com/syvaidya/openstego)
+
+- Image
+
+  - [quickstego](http://quickcrypto.com/free-steganography-software.html)
+
+- Video
+
+  - [spectrology](https://github.com/solusipse/spectrology)
+
+- Audio
+  - [deepsound](http://jpinsoft.net/deepsound/overview.aspx)
+
+more....
+
+- https://alternativeto.net/software/quickstego/
