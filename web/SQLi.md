@@ -4,6 +4,8 @@
 - https://portswigger.net/web-security/sql-injection
 - https://sqlwiki.netspi.com/
 
+> MariaDB == MySQL
+
 1. <span style="color:orange">Retrieving hidden data</span>, where you can modify an SQL query to return additional results.
 2. <span style="color:orange">Subverting application logic</span>, where you can change a query to interfere with the application's logic.
 3. <span style="color:orange">UNION attacks</span>, where you can retrieve data from different database tables.
@@ -38,3 +40,11 @@ Tricks:
 - `SELECT username, password FROM users WHERE username='ad'||'min' AND password='a' is not 'b'`
 - `SELECT username, password FROM users WHERE username='ad'||'min' except select' AND password=','' `
 - `SELECT username, password FROM users WHERE username='ad'||'min' AND password=''glob'*'`
+
+### NoSQL
+
+- https://book.hacktricks.xyz/pentesting-web/nosql-injection
+
+- [json to bson (byte json)](https://onlinejsontools.com/convert-json-to-bson)
+
+- https://www.youtube.com/watch?v=o79Mlv9dROc&list=PLP91MtCof9kngegItBFcvBntWK2Mt6tWA

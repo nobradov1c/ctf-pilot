@@ -7,6 +7,19 @@
   - `gobuster dir -t 100 --url 10.10.10.123 --wordlist /usr/share/seclists/Discovery/Web-Content/big.txt -x txt,zip,bak,rar,asm,asmx,asp,aspx,php,js > gobuster-big.txt`
 - [dirbuster](https://aur.archlinux.org/packages/dirbuster) - GUI app
 
+### servers usual naming conventions
+
+1. NodeJS:
+
+   - index.html
+
+2. python
+
+   - app/app.py
+
+3. PHP
+   - index.php
+
 ---
 
 Automated:
@@ -80,3 +93,32 @@ https://wasmtime.dev/
 for python:
 
 https://github.com/bytecodealliance/wasmtime-py
+
+## Misc
+
+- clone a web page
+
+  - `wget -r some-site.com`
+
+- exact location, can't access site via IP
+
+  - `curl -v 10.129.253.118`
+
+    > ERROR
+
+    1. see Location header in response
+    2. or `<meta http-equiv="refresh" content="0;url=http://unika.htb/">`
+    3. or something else...?
+
+- The top 10 most common passwords list 2022:
+
+  - 123456
+  - 123456789
+  - qwerty
+  - password
+  - 12345
+  - qwerty123
+  - 1q2w3e
+  - 12345678
+  - 111111
+  - 1234567890
