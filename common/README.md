@@ -34,6 +34,13 @@
 - [Kali](https://www.kali.org/)
 - [Blackarch](https://blackarch.org/)
 
+- grep
+  - `-r`, recursive
+  - `-E`, regex
+  - `-i`, case insensitive
+  - `-v`, invert match, exclude
+  - `grep "10.10.10.12" file.log | grep -v "gobuster"`
+
 ### Windows
 
 - [Flare VM](https://github.com/mandiant/flare-vm)
