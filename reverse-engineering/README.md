@@ -2,7 +2,9 @@
 
 ## quick tools
 
+- `file`
 - `strings`
+- `xxd` hex view
 - `objdump -x` Show all headers
 - `objdump -d/D` Disassemble
 - `strace`
@@ -20,6 +22,12 @@
   ### tools for PE (windows)
 
   - https://github.com/Washi1337/AsmResolver
+
+  ### .NET [dotnet, mono]
+  - [ILSpy](https://github.com/icsharpcode/ILSpy)
+  - [dotPeek](https://www.jetbrains.com/decompiler/)
+  - [dnSpy](https://github.com/dnSpy/dnSpy)
+    - can debug and edit binaries
 
 ## gdb [cheat sheet](./gdb.md)
 

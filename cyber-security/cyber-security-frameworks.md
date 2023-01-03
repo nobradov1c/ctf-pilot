@@ -32,3 +32,24 @@
   - [fuzzy hashing](https://ssdeep-project.github.io/ssdeep/index.html)
 - TTPs - Tactics, Techniques & Procedures
   - [MITRE ATT&CK](https://attack.mitre.org/)
+
+## Cyber kill chain - framework
+
+The Cyber Kill Chain framework is designed for identification and prevention of the network intrusions. You will learn what the adversaries need to do in order to achieve their goals.
+
+- Reconnaissance
+
+  - discovering and collecting information on the system and the victim
+    - [the Harvester](https://github.com/laramies/theHarvester)
+    - [hunter.io](https://hunter.io/)
+    - [OSING framework](https://osintframework.com/)
+    - social media
+
+- Weaponization
+  - creating payload from malware and exploit
+- Delivery
+  - phishing email, infected USB, watering hole attack (drive-by download)
+- Exploitation
+- Installation
+- Command & Control
+- Actions on Objectives
