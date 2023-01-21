@@ -47,6 +47,8 @@ https://jwt.io/
 
 `john --show jwt.txt`
 
+## [XSS - Cross-site scripting](./XSS.md)
+
 ## [SQL Injection](./SQLi.md)
 
 - https://portswigger.net/web-security/sql-injection/cheat-sheet
@@ -96,8 +98,9 @@ https://github.com/bytecodealliance/wasmtime-py
 
 ## Misc
 
-- clone a web page
+- clone, mirror a web page
 
+  - `wget -m some-site.com`
   - `wget -r some-site.com`
 
 - exact location, can't access site via IP

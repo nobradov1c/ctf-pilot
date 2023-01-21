@@ -10,6 +10,16 @@
 - `strace`
 - `ltrace`
 
+## Disassemblers and debugers
+
+- IDA, Ghidra, gdb, edb
+- if they don't work try Cutter
+- ILSpy, dnSpy, dotPeek
+
+- tips:
+
+  - edb and Cutter can show hexdumps next to disassembly, look for parameters to function calls
+
   ### multipurpose
 
   - https://ide.kaitai.io/ - [kaitai](http://kaitai.io/)
@@ -24,10 +34,19 @@
   - https://github.com/Washi1337/AsmResolver
 
   ### .NET [dotnet, mono]
+
   - [ILSpy](https://github.com/icsharpcode/ILSpy)
   - [dotPeek](https://www.jetbrains.com/decompiler/)
   - [dnSpy](https://github.com/dnSpy/dnSpy)
     - can debug and edit binaries
+
+## Packing
+
+- [PEiD](https://www.aldeid.com/wiki/PEiD)\
+  - detects most common packers, cryptors and compilers for PE files
+- [UPX](https://github.com/upx/upx)
+  - `upx -d cake.exe`
+    - sometimes before unpacking with UPX you must disable the ASLR: `setdllcharacteristics -d cake.exe`, unpacked program might not run without this (for debugging) like cake.exe for example (chall from HTB)
 
 ## gdb [cheat sheet](./gdb.md)
 

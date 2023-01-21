@@ -28,6 +28,8 @@
 - [StegExpose - java jar](https://github.com/b3dk7/StegExpose)
   - expose LSB data from PNG or BMP
 - [openstego](https://github.com/syvaidya/openstego)
+- [steghide](https://github.com/StefanoDeVuono/steghide)
+- [stegseek](https://github.com/RickdeJager/stegseek) - steghide cracker
 
 - Image
 
@@ -43,3 +45,4 @@
 more....
 
 - https://alternativeto.net/software/quickstego/
+

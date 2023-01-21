@@ -15,3 +15,7 @@
 ## Python examples
 
 - [threading](./scripts/threading-example.py)
+
+## Oneliners
+
+- `variable = __import__('os').popen('cat /etc/passwd').read()`
