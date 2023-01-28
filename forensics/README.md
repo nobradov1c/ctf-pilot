@@ -19,6 +19,10 @@
 
 ## [Android](./android.md)
 
+## Firefox
+
+- [Firefox Decrypt](https://github.com/unode/firefox_decrypt) - extract passwords from Mozilla (Firefox™, Waterfox™, Thunderbird®, SeaMonkey®) profiles
+
 ## more tools
 
 - [binwalk](https://github.com/ReFirmLabs/binwalk)

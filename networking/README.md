@@ -34,3 +34,8 @@ https://h.43z.one/ipconverter/
 ## [web](../web/README.md)
 
 ## [smb](./smb.md)
+
+## Bro logs (zeek logs)
+
+- [Zeek, formerly Bro](https://zeek.org/) - network analysis framework
+  - [zeek logs, bro logs](https://docs.zeek.org/en/master/logs/index.html)

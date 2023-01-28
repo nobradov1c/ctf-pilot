@@ -41,6 +41,8 @@
 
 - Audio
   - [deepsound](http://jpinsoft.net/deepsound/overview.aspx)
+  - [Sonic visualiser](https://github.com/sonic-visualiser/sonic-visualiser)
+    - `sudo apt-get -y install sonic-visualiser`
 
 more....
 
