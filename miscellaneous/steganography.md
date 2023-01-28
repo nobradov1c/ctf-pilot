@@ -3,6 +3,7 @@
 - [aperisolve](https://github.com/Zeecka/AperiSolve)
 
 - try to find the original image and see the diff https://futureboy.us/stegano/compinput.html
+  - https://tineye.com/ - looks for exact duplicates of images
 
 ## extracting data
 
@@ -47,4 +48,15 @@
 more....
 
 - https://alternativeto.net/software/quickstego/
+- https://0xrick.github.io/lists/stego/
+
+## Exotic
+
+- [spammimic](https://www.spammimic.com/)
+  - innocent looking emails
+  - Decode spam with a password
+  - Decode fake spreadsheet
+  - Decode fake PGP
+  - Decode fake Russian
+  - Decode space
 

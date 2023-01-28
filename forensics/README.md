@@ -28,3 +28,13 @@
 - [binwalk](https://github.com/ReFirmLabs/binwalk)
 - [foremost](https://www.kali.org/tools/foremost/#tool-documentation)
 - [scalpel](https://github.com/sleuthkit/scalpel)
+
+## other file formats
+
+- [pdf analysis](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/pdf-file-analysis)
+  - [pdftotext](https://github.com/spatie/pdf-to-text)
+    - [pdftotext online](https://smallpdf.com/blog/pdf-to-text)
+    - [pdftotext online 2](https://pdftotext.com/)
+
+## [Obfuscation](./obfuscation.md)
+

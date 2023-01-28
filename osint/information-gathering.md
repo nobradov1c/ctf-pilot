@@ -25,6 +25,10 @@
 
   - https://breached.to/
 
+- extensions
+  - [web archive](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)
+  - [WeVerify](https://chrome.google.com/webstore/detail/fake-news-debunker-by-inv/mhccpoafgdgbhnjfhkcmgknndkeenfhe) - fact checking
+
 ## find subdomains
 
 - [crt.sh](https://crt.sh)
@@ -43,3 +47,4 @@
 - site:shop.tesla.com
 - site:tesla.com -www -shop (subtract www, shop)
 - site:tesla.com filetype:pdf
+

@@ -12,10 +12,7 @@
 - Phone Keypad Cipher (T9 Code)
   - https://www.dcode.fr/phone-keypad-cipher
 
-## OSINT
-
-- https://instantusername.com
-- https://github.com/sherlock-project/sherlock
+## [OSINT](../osint/)
 
 ## [Steganography](./steganography.md)
 
