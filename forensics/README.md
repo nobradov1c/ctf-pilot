@@ -29,6 +29,8 @@
 - [foremost](https://www.kali.org/tools/foremost/#tool-documentation)
 - [scalpel](https://github.com/sleuthkit/scalpel)
 
+## [Obfuscation](./obfuscation.md)
+
 ## other file formats
 
 - [pdf analysis](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/specific-software-file-type-tricks/pdf-file-analysis)
@@ -36,5 +38,7 @@
     - [pdftotext online](https://smallpdf.com/blog/pdf-to-text)
     - [pdftotext online 2](https://pdftotext.com/)
 
-## [Obfuscation](./obfuscation.md)
+## RAW, binary files
+
+- [Veles](https://codisec.com/veles/) - Binary data analysis and visualization tool
 
