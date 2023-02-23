@@ -1,5 +1,11 @@
 # Web HTTP/HTTPS
 
+## Burp suite
+
+- extensions:
+  - [http request-smuggler](https://github.com/portswigger/http-request-smuggler)
+  - [jwt editor](https://github.com/PortSwigger/jwt-editor)
+
 ## enumeration
 
 - [gobuster](https://github.com/OJ/gobuster)
@@ -46,6 +52,8 @@ https://jwt.io/
 `john --wordlist=/usr/share/seclists/Passwords/Leaked-Databases/rockyou.txt jwt.txt`
 
 `john --show jwt.txt`
+
+- [burp suite - jwt editor extension](https://github.com/PortSwigger/jwt-editor)
 
 ## [XSS - Cross-site scripting](./XSS.md)
 
@@ -96,6 +104,13 @@ for python:
 
 https://github.com/bytecodealliance/wasmtime-py
 
+## Login page
+
+- try common username and password cominations
+  - username:password
+    - admin:admin
+    - test:password
+
 ## Misc
 
 - clone, mirror a web page
@@ -125,3 +140,6 @@ https://github.com/bytecodealliance/wasmtime-py
   - 12345678
   - 111111
   - 1234567890
+
+## [request smuggling](./request-smuggling.md)
+

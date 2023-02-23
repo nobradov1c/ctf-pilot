@@ -11,7 +11,14 @@
   - `cargo install project_ares --locked`
   - `ares`
 
+- [tholman-transposition](https://tholman.com/other/transposition/) - transposition ciphers/
+
 - [quipquip](https://www.quipqiup.com/) - solve simple substitution ciphers
+- [guballa](https://www.guballa.de/substitution-solver) - substitution-solver
+
+### Rainbow tables
+
+- [crackstation](https://crackstation.net/)
 
 ## encryption tools
 
@@ -30,7 +37,10 @@
 ## Math
 
 - [sagemath](https://www.sagemath.org/)
+
   - [install](https://doc.sagemath.org/html/en/reference/spkg/_sagemath.html) - use on Ubuntu, Arch, WSL...
+
+- [factor db](http://factordb.com/) - quickly factor large numbers
 
 ### RSA
 

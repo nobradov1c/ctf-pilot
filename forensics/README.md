@@ -40,5 +40,6 @@
 
 ## RAW, binary files
 
-- [Veles](https://codisec.com/veles/) - Binary data analysis and visualization tool
+- [Veles](https://github.com/codilime/veles) - Binary data analysis and visualization tool
 
+- [List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) - potentially fix broken files

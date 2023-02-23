@@ -69,3 +69,8 @@
 - [Python vulnerabilities](./python.md)
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Meta Defender OPSWAT](https://metadefender.opswat.com/)
+
+## cool useless stuff
+
+- https://github.com/xoreaxeaxeax/REpsych
+- https://github.com/xoreaxeaxeax/movfuscator

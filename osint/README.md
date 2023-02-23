@@ -12,3 +12,6 @@
 
 ## [Information gathering](./information-gathering.md)
 
+## Resources
+
+- [OSINT curious](https://osintcurio.us/)

@@ -35,6 +35,7 @@
 - Image
 
   - [quickstego](http://quickcrypto.com/free-steganography-software.html)
+  - [imagemagick](https://imagemagick.org/index.php) - try to open a file (potentially an image) - command `display` on kali
 
 - Video
 
