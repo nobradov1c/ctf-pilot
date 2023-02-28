@@ -23,7 +23,17 @@
 ### tools:
 
 - BurpSuite Intruder
-- [sqlmap](https://github.com/sqlmapproject/sqlmap)
+- [sqlmap](https://github.com/sqlmapproject/sqlmap) - [docs](https://github.com/sqlmapproject/sqlmap/wiki/Usage)
+
+  - `--batch` - Never ask for user input, use the default behavior
+  - `--os-shell` - Prompt for an interactive operating system shell
+
+  1. make a request in burp suite, right click, copy (save) to file
+  2. `sqlmap -r request.txt --dbs` - Enumerate DBMS databases
+  3. `sqlmap -r request.txt -D users --tables` - Enumerate DBMS database tables from database -D
+  4. `sqlmap -r request.txt -D users -T admin --columns` - Enumerate DBMS database tables from database -D and from table -T
+  5. `sqlmap -r request.txt -D users -T admin --dump` - Dump DBMS database table entries
+
 - TODO: ffuz
 - [more...](https://github.com/The-Art-of-Hacking/h4cker/blob/master/web_application_testing/sql-injection-tools.md)
 
@@ -48,3 +58,4 @@ Tricks:
 - [json to bson (byte json)](https://onlinejsontools.com/convert-json-to-bson)
 
 - https://www.youtube.com/watch?v=o79Mlv9dROc&list=PLP91MtCof9kngegItBFcvBntWK2Mt6tWA
+
