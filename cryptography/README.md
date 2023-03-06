@@ -3,6 +3,7 @@
 ## Magic tools
 
 - [dcode cipher identifier](https://www.dcode.fr/cipher-identifier)
+- [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)
 - [Ciphey](https://github.com/Ciphey/Ciphey)
   - `docker run -it --rm remnux/ciphey "pvcurl vf gur orfg"`
 - [Ares](https://github.com/bee-san/Ares)
@@ -10,6 +11,8 @@
   - intends to fully replace Ciphey
   - `cargo install project_ares --locked`
   - `ares`
+
+- [cryptool, windows app](https://www.cryptool.org/en/)
 
 - [tholman-transposition](https://tholman.com/other/transposition/) - transposition ciphers/
 
@@ -41,6 +44,7 @@
   - [install](https://doc.sagemath.org/html/en/reference/spkg/_sagemath.html) - use on Ubuntu, Arch, WSL...
 
 - [factor db](http://factordb.com/) - quickly factor large numbers
+- [alpertron calculators](https://www.alpertron.com/CALTORS.HTM)
 
 ### RSA
 
@@ -48,4 +52,17 @@
 2. Choose two integers e and d such that e × d = 1 mod ϕ(N), where ϕ(N) = N − p − q + 1. This step will let us generate the public key (N,e) and the private key (N,d).
 3. The sender can encrypt a value x by calculating y = xe mod N. (Modulus)
 4. The recipient can decrypt y by calculating x = yd mod N. Note that yd = xed = xkϕ(N) + 1 = (xϕ(N))k × x = x. This step explains why we put a restriction on the choice of e and d.
+
+- get info about public key
+  - `openssl rsa -inform PEM -text -noout -pubin -in pubkey.pem` - e, N
+  - try to crack the rsa (factor N, find phi)...
+
+### AES
+
+- sometimes online tools will fail, so try to decipher AES in python...
+
+## Notes
+
+- https://ir0nstone.gitbook.io/crypto/
+- https://cryptohack.gitbook.io/cryptobook/
 

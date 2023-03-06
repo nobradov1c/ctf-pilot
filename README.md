@@ -2,6 +2,8 @@
 
 A guide and a cheatsheet for solving ctfs
 
+- [ctf tools, guides](./ctf-tools.md)
+
 ## [Web Exploitation](/web)
 
 ## [Cryptography](/cryptography/)
@@ -29,3 +31,4 @@ A guide and a cheatsheet for solving ctfs
 ## Other
 
 ### [Python](./other/python/)
+

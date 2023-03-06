@@ -1,5 +1,9 @@
 # Forensics
 
+- [hacktricks forensic methodology](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology)
+
+- [SIFT](https://www.sans.org/tools/sift-workstation/) - SANS institute forensic workstation
+
 ## Docker
 
 - `docker history --no-trunc <image_id>` - show used commands
@@ -18,6 +22,10 @@
   - [option2](pcap/parse-keyboard-2.py)
 
 ## [Android](./android.md)
+
+## RDP
+
+-[bmc-tools](https://github.com/ANSSI-FR/bmc-tools) - RDP Bitmap Cache parser
 
 ## Firefox
 
@@ -41,5 +49,14 @@
 ## RAW, binary files
 
 - [Veles](https://github.com/codilime/veles) - Binary data analysis and visualization tool
+- [binvis](https://code.google.com/archive/p/binvis/) - visualize binary-file structures in unique ways
 
 - [List of file signatures](https://en.wikipedia.org/wiki/List_of_file_signatures) - potentially fix broken files
+
+## [Memory forensics](./memory.md)
+
+## Disk data
+
+- [Ease US data recovery](https://getintopc.com/softwares/data-recovery/easeus-data-recovery-wizard-technician-2022-free-download/) - works with partially destroyed RAID 5 for example
+- [TestDisk & PhotoRec](https://www.cgsecurity.org/wiki/TestDisk_Download) - powerful free data recovery software
+
