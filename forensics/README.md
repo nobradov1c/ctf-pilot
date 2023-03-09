@@ -18,8 +18,15 @@
 ## Pcap, wireshark
 
 - extract keyboard input from USB protocol
+
   - [option1](pcap/parse-keyboard-1.py)
   - [option2](pcap/parse-keyboard-2.py)
+  - [option3 - hacktricks](https://book.hacktricks.xyz/generic-methodologies-and-resources/basic-forensic-methodology/pcap-inspection/usb-keystrokes)
+
+- DNS
+  - DNS exfiltration
+    - https://github.com/Arno0x/DNSExfiltrator
+    - [cyberchef example](<https://gchq.github.io/CyberChef/#recipe=From_Base64('A-Za-z0-9-_',true,false)RC4(%7B'option':'UTF8','string':'TryHarder'%7D,'Latin1','Latin1')Unzip('',false)&input=MGVqWFdzcjZUSC1QXzF4a0VzdGFWd2k3V0R5OEFjeHVmbkdvdFdYSDNja2IyTGg1QS1xRmxqSVdPQU9MVVMwLlQxVzhQNENwaUNaYkNNN19RS2N2LXIwSkcyOVJwc3lZWTVZa1pSeG83WURJWVVKcEhsR2d4dTVQV1YxR19EQS5LTnJtbnJrdGZiZURnemNwUEpCalBUZU1ZeDNRczFRNmJBdUZoUk9XWGVtSjgwZ1BUWUl6MHhsOHVzSlFOM20>) - from Base64 URL safe mode
 
 ## [Android](./android.md)
 

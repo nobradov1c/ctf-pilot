@@ -10,6 +10,7 @@ keypress_ids_filename = "keypress_ids.txt"
 
 # create the output for
 command_pcapng_to_keypress_ids = (
+    # tshark -r ./keystrokes.pcapng -Y 'usb.data_len == 8 && usbhid.data' -T fields -e usbhid.data | sed 's/../:&/g2' > keys.txt
     # f"tshark -r {pcapng_filename} -T fields -e usb.capdata > {keypress_ids_filename}"
     f"tshark -r {pcapng_filename} -Y 'usb.capdata && usb.data_len == 8' -T fields -e usb.capdata > {keypress_ids_filename}"
 )
@@ -110,7 +111,7 @@ for line in file:
                 f"line={line[0:16]}, relevant characters indicating keypress ID: {two_chars} convert keypres ID to letter: {switcher[two_chars]} + {switcher_mods[mod]}"
             )
         except:
-            if(two_chars not in ["ff", "00", "01", "02", "03"] and two_chars[0] != 'f'):
+            if (two_chars not in ["ff", "00", "01", "02", "03"] and two_chars[0] != 'f'):
                 print(
                     f"line={line[0:16]}, relevant characters indicating keypress ID: {two_chars} convert keypres ID to letter: ???"
                 )

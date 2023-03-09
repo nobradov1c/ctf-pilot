@@ -1,4 +1,5 @@
 # tshark -r data.pcapng -T fields -e usb.capdata  | grep -v -e '^$' | sed 's/../:&/g2' > keys.txt
+# tshark -r ./keystrokes.pcapng -Y 'usb.data_len == 8 && usbhid.data' -T fields -e usbhid.data | sed 's/../:&/g2' > keys.txt
 # grep non-empty lines
 # separate bytes with : if neccesary
 
