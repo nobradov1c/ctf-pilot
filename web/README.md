@@ -6,6 +6,11 @@
   - [http request-smuggler](https://github.com/portswigger/http-request-smuggler)
   - [jwt editor](https://github.com/PortSwigger/jwt-editor)
 
+## more tools
+
+- [OWASP ZAP - zaproxy](https://www.zaproxy.org/download/)
+- [fiddler](https://www.telerik.com/fiddler) - a web-debugging tool that monitors, inspects, edits, and logs all HTTP(S) traffic, and issue requests between your computer and the Internet, and fiddles with incoming and outgoing data. It is a high-performance, cross-platform proxy for any browser, system, or platform.
+
 ## enumeration
 
 - [gobuster](https://github.com/OJ/gobuster)

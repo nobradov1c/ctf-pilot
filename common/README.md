@@ -25,7 +25,11 @@
 - [unf](https://github.com/io12/unf) - UNixize Filename
 - [tldr](https://github.com/tldr-pages/tldr)
 - [navi](https://github.com/denisidoro/navi)
+
   - `navi --cheatsh nmap`
+
+- [HxD](https://mh-nexus.de/en/hxd/) - hex editor
+- [010 Editor](https://getintopc.com/softwares/text-editors/sweetscape-010-editor-2022-free-download/) - hex editor
 
 ## Operating systems
 
@@ -45,3 +49,4 @@
 
 - [Flare VM](https://github.com/mandiant/flare-vm)
 - [Commondo VM](https://github.com/mandiant/commando-vm)
+

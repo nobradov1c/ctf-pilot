@@ -10,6 +10,7 @@ https://h.43z.one/ipconverter/
 
 - [netdiscover](https://github.com/netdiscover-scanner/netdiscover), use arp to discover network addresses
   - `netdiscover -r 192.168.1.0/24`
+- [zenmap](https://nmap.org/zenmap/) - nmap gui
 - [nmap](https://github.com/nmap/nmap), scan open ports
 
   - `nmap -sV -sC -O -oN nmap.txt 10.10.10.123`
@@ -39,3 +40,7 @@ https://h.43z.one/ipconverter/
 
 - [Zeek, formerly Bro](https://zeek.org/) - network analysis framework
   - [zeek logs, bro logs](https://docs.zeek.org/en/master/logs/index.html)
+
+## more tools
+
+- [flare-fakenet-ng](https://github.com/mandiant/flare-fakenet-ng)

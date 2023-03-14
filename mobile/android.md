@@ -29,3 +29,8 @@
 
 
         - `adb -e logcat com.hellocmu.picoctf`
+
+## rev
+
+- [apktool](https://github.com/iBotPeaches/Apktool) - a tool for reverse engineering Android apk files
+- [bytecode-viewer](https://github.com/Konloch/bytecode-viewer) - A Java 8+ Jar & Android APK Reverse Engineering Suite (Decompiler, Editor, Debugger & More)
