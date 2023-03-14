@@ -117,6 +117,12 @@ utilities:
 
 - [other windows internals](https://learn.microsoft.com/en-us/sysinternals/)
 
+## Online sandboxes
+
+- https://analyze.intezer.com/scan
+- https://app.any.run/
+- https://capesandbox.com/analysis/
+
 ## Other
 
 - [Python vulnerabilities](./python.md)
