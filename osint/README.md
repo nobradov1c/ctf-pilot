@@ -2,9 +2,6 @@
 
 ## Tools
 
-- https://instantusername.com
-- https://github.com/sherlock-project/sherlock
-
 ## Image search
 
 - Yandex, Bing, Google
@@ -15,3 +12,4 @@
 ## Resources
 
 - [OSINT curious](https://osintcurio.us/)
+

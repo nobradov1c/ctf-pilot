@@ -1,6 +1,7 @@
 # Memory forensics
 
 - [volatility](https://www.volatilityfoundation.org/)
+  - [profiles](https://github.com/volatilityfoundation/profiles)
 - [redline](https://fireeye.market/apps/211364) - nice GUI
 
 ## [Volatility](https://www.volatilityfoundation.org/)

@@ -121,6 +121,7 @@ utilities:
 
 - https://analyze.intezer.com/scan
 - https://app.any.run/
+- https://www.hybrid-analysis.com/
 - https://capesandbox.com/analysis/
 
 ## Other
@@ -129,6 +130,8 @@ utilities:
 - [Virus total](https://www.virustotal.com/gui/home/upload)
 - [Meta Defender OPSWAT](https://metadefender.opswat.com/)
 - [Cerbero Suite](https://getintopc.com/softwares/analysis/cerbero-suite-advanced-2021-free-download/) - The Hacker’s Multitool
+- [cheatengine](https://www.cheatengine.org/)
+  - https://github.com/cheat-engine/cheat-engine
 
 ## cool useless stuff
 

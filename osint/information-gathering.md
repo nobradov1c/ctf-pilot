@@ -4,6 +4,8 @@
 
 - [amass](https://github.com/OWASP/Amass)
 - [theHarvester](https://github.com/laramies/theHarvester)
+- [sherlock](https://github.com/sherlock-project/sherlock)
+- https://instantusername.com
 
 - [hunter.io](https://hunter.io/)
   - employees, email addresses
@@ -21,9 +23,9 @@
   - https://leakcheck.net/
   - https://ghostproject.fr/
 
-- breached
+- breached leaked databases
 
-  - https://breached.to/
+  - https://aleph.occrp.org
 
 - extensions
   - [web archive](https://chrome.google.com/webstore/detail/wayback-machine/fpnmgdkabkmnadcjpehmlllkndpkmiak)

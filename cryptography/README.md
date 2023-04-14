@@ -3,6 +3,7 @@
 ## Magic tools
 
 - [dcode cipher identifier](https://www.dcode.fr/cipher-identifier)
+- [cryptool cipher identifier](https://www.cryptool.org/en/cto/ncid)
 - [RsaCtfTool](https://github.com/RsaCtfTool/RsaCtfTool)
 - [Ciphey](https://github.com/Ciphey/Ciphey)
   - `docker run -it --rm remnux/ciphey "pvcurl vf gur orfg"`
@@ -36,6 +37,7 @@
 
 - [Twin hex cypher](https://www.calcresult.com/misc/cyphers/twin-hex.html)
 - [spam-mimic, spammimic](https://www.spammimic.com/explain.shtml)
+- [symbols-ciphers](https://www.dcode.fr/symbols-ciphers)
 
 ## Math
 

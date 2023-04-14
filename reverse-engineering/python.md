@@ -14,4 +14,11 @@ understand pickled code if it executes automatically:
 
 - compile python code to pyc
 - decompile pyc with [pycdc](https://github.com/zrax/pycdc) or online
+  - how to install pycdc:
+    ```sh
+      git clone https://github.com/zrax/pycdc
+      cd pycdc
+      cmake .
+      make
+    ```
 

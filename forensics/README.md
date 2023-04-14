@@ -44,6 +44,10 @@
 - [foremost](https://www.kali.org/tools/foremost/#tool-documentation)
 - [scalpel](https://github.com/sleuthkit/scalpel)
 
+- workstations
+  - [CAINE - linux](https://www.caine-live.net/)
+  - [tsurugi linux](https://tsurugi-linux.org/)
+
 ## [Obfuscation](./obfuscation.md)
 
 ## other file formats

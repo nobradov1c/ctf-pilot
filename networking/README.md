@@ -44,3 +44,8 @@ https://h.43z.one/ipconverter/
 ## more tools
 
 - [flare-fakenet-ng](https://github.com/mandiant/flare-fakenet-ng)
+
+##
+
+- [exploitdb]
+- [PoC collection](https://github.com/nomi-sec/PoC-in-GitHub)
