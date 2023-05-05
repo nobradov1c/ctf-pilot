@@ -13,4 +13,5 @@
 
 - [regripper](https://github.com/keydet89/RegRipper3.0)
 - [reglookup](http://projects.sentinelchicken.org/reglookup/) - analysis of Windows NT-based registry files, available on kali
+- [O&O RegEditor](https://www.oo-software.com/en/ooregeditor)
 

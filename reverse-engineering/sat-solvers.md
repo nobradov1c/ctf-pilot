@@ -8,3 +8,7 @@
 ## [angr](https://github.com/angr/angr)
 
 - [angr gui](https://github.com/angr/angr-management)
+
+## examples
+
+- https://github.com/ObradovicNikola/angr-environment

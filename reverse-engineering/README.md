@@ -124,6 +124,11 @@ utilities:
 - https://www.hybrid-analysis.com/
 - https://capesandbox.com/analysis/
 
+## dynamic tools
+
+- [angr](https://github.com/angr/angr)
+- [frida](https://frida.re/)
+
 ## Other
 
 - [Python vulnerabilities](./python.md)
